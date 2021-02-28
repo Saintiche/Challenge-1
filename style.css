@@ -1,0 +1,63 @@
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+body{
+    background-color: black;
+    
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+div{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+  
+}
+
+canvas{
+    grid-column: 1/2;
+    
+}
+
+@media screen and (min-width: 360px){
+    body{
+        font-size: 15px ;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    body{
+        font-size: 25px ;
+    }
+    .chart-container{
+        height: 50vh;
+        width: 50vw;
+    }
+    canvas{
+        grid-column: span 1;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+    img{
+        align-items: center;
+    }
+    body{
+        font-size: 30px ;
+    }
+
+}
+
