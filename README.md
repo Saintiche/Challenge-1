@@ -2,5 +2,5 @@
  Eerst opdracht XT2
 
 ##  Welkom in mijn repo
-XT2 is mij favorite vak. De website die heb gemaakt is super mooi.
+Hier is de eerste opdracht van dit vak.
 Je kan hem vinden op [https://saintiche.github.io/Challenge-1/]
